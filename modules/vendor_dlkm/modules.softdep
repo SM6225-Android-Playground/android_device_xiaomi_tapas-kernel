@@ -4,7 +4,7 @@ softdep soc_sleep_stats pre: smem
 softdep q6_notifier_dlkm pre: qcom_q6v5_pas
 softdep msm_video pre: subsys-pil-tz msm-mmrm
 softdep nopmi_chg pre: bq2589x_charger sm5602_fg 
-softdep msm_kgsl pre: qcom-arm-smmu-mod nvmem_qfprom socinfo
+softdep msm_kgsl pre: arm_smmu nvmem_qfprom socinfo
 softdep goodix_ts_9896 pre: msm_drm
 softdep dwc3_msm pre: phy-generic phy-msm-snps-hs phy-msm-ssusb-qmp eud
 softdep aw87xxx_dlkm pre: fs1815_dlkm 

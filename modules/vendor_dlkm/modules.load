@@ -138,6 +138,7 @@ qcom_pil_info.ko
 qcom_q6v5.ko
 qcom_q6v5_pas.ko
 qcom_spss.ko
+qcom_sysmon.ko
 qcom-spmi-adc5.ko
 qcom-vadc-common.ko
 icc-test.ko

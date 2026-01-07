@@ -339,6 +339,8 @@ alias of:N*T*Cqcom,wcn6750 icnss2
 alias of:N*T*Cqcom,wcn6750C* icnss2
 alias of:N*T*Cqcom,icnss icnss2
 alias of:N*T*Cqcom,icnssC* icnss2
+alias of:N*T*Cqcom,wcn6450 icnss2
+alias of:N*T*Cqcom,wcn6450C* icnss2
 alias of:N*T*Clionsemi,ln8000 ln8000_charger
 alias of:N*T*Clionsemi,ln8000C* ln8000_charger
 alias of:N*T*Clionsemi,ln8000-master ln8000_charger
