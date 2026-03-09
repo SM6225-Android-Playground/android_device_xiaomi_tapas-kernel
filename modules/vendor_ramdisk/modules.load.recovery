@@ -62,6 +62,7 @@ qcom-cpufreq-hw.ko
 sdhci-msm.ko
 cqhci.ko
 qcom-scm.ko
+miev.ko
 qcom-apcs-ipc-mailbox.ko
 qcom_hwspinlock.ko
 rproc_qcom_common.ko

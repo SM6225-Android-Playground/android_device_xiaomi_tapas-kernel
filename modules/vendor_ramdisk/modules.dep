@@ -1,5 +1,6 @@
 /lib/modules/debug-regulator.ko:
 /lib/modules/qcom_pm8008-regulator.ko: /lib/modules/debug-regulator.ko
+/lib/modules/miev.ko:
 /lib/modules/goodix_fp.ko:
 /lib/modules/clk-dummy.ko: /lib/modules/clk-qcom.ko /lib/modules/gdsc-regulator.ko /lib/modules/proxy-consumer.ko /lib/modules/debug-regulator.ko
 /lib/modules/bootinfo.ko:
@@ -129,7 +130,7 @@
 /lib/modules/bq2589x_charger.ko: /lib/modules/qcom-pmic-voter.ko /lib/modules/tcpc_class.ko /lib/modules/class-dual-role.ko
 /lib/modules/coresight-tpda.ko: /lib/modules/coresight.ko
 /lib/modules/fsa4480-i2c.ko: /lib/modules/ucsi_glink.ko /lib/modules/qti-regmap-debugfs.ko /lib/modules/pmic_glink.ko /lib/modules/pdr_interface.ko /lib/modules/rproc_qcom_common.ko /lib/modules/qcom_smd.ko /lib/modules/qcom_glink_smem.ko /lib/modules/qcom_glink.ko /lib/modules/qcom_ipc_logging.ko /lib/modules/minidump.ko /lib/modules/qmi_helpers.ko /lib/modules/smem.ko
-/lib/modules/mi_memory.ko: /lib/modules/ufs_qcom.ko /lib/modules/ufshcd-crypto-qti.ko /lib/modules/crypto-qti-common.ko /lib/modules/crypto-qti-tz.ko /lib/modules/phy-qcom-ufs.ko /lib/modules/qcom_ipc_logging.ko /lib/modules/minidump.ko /lib/modules/qcom-scm.ko /lib/modules/clk-qcom.ko /lib/modules/gdsc-regulator.ko /lib/modules/proxy-consumer.ko /lib/modules/smem.ko /lib/modules/debug-regulator.ko
+/lib/modules/mi_memory.ko: /lib/modules/ufs_qcom.ko /lib/modules/miev.ko /lib/modules/ufshcd-crypto-qti.ko /lib/modules/crypto-qti-common.ko /lib/modules/crypto-qti-tz.ko /lib/modules/phy-qcom-ufs.ko /lib/modules/qcom_ipc_logging.ko /lib/modules/minidump.ko /lib/modules/qcom-scm.ko /lib/modules/clk-qcom.ko /lib/modules/gdsc-regulator.ko /lib/modules/proxy-consumer.ko /lib/modules/smem.ko /lib/modules/debug-regulator.ko
 /lib/modules/ipa_fmwk.ko:
 /lib/modules/i2c-msm-geni.ko: /lib/modules/qcom_ipc_logging.ko /lib/modules/minidump.ko /lib/modules/smem.ko
 /lib/modules/memory_dump_v2.ko: /lib/modules/minidump.ko /lib/modules/qcom-scm.ko /lib/modules/smem.ko
@@ -189,7 +190,7 @@
 /lib/modules/pinctrl-msm.ko: /lib/modules/qcom-scm.ko
 /lib/modules/hdcp_qseecom_dlkm.ko: /lib/modules/qseecom_dlkm.ko /lib/modules/mem_buf_dev.ko /lib/modules/secure_buffer.ko /lib/modules/qcom-scm.ko
 /lib/modules/mem_buf_dev.ko: /lib/modules/secure_buffer.ko /lib/modules/qcom-scm.ko
-/lib/modules/msm_drm.ko: /lib/modules/spmi-pmic-arb.ko /lib/modules/qcom_va_minidump.ko /lib/modules/pinctrl-msm.ko /lib/modules/qcom_iommu_util.ko /lib/modules/panel_event_notifier.ko /lib/modules/minidump.ko /lib/modules/msm_dma_iommu_mapping.ko /lib/modules/secure_buffer.ko /lib/modules/qcom-scm.ko /lib/modules/smem.ko
+/lib/modules/msm_drm.ko: /lib/modules/spmi-pmic-arb.ko /lib/modules/qcom_va_minidump.ko /lib/modules/pinctrl-msm.ko /lib/modules/miev.ko /lib/modules/qcom_iommu_util.ko /lib/modules/panel_event_notifier.ko /lib/modules/minidump.ko /lib/modules/msm_dma_iommu_mapping.ko /lib/modules/secure_buffer.ko /lib/modules/qcom-scm.ko /lib/modules/smem.ko
 /lib/modules/binder_prio.ko:
 /lib/modules/qcom-pmic-voter.ko:
 /lib/modules/crypto-qti-tz.ko: /lib/modules/qcom-scm.ko
@@ -213,7 +214,7 @@
 /lib/modules/regmap-spmi.ko:
 /lib/modules/sched-walt.ko: /lib/modules/qcom-cpufreq-hw.ko
 /lib/modules/qcom-spmi-adc-tm5.ko: /lib/modules/qcom-vadc-common.ko
-/lib/modules/ufs_qcom.ko: /lib/modules/ufshcd-crypto-qti.ko /lib/modules/crypto-qti-common.ko /lib/modules/crypto-qti-tz.ko /lib/modules/phy-qcom-ufs.ko /lib/modules/qcom_ipc_logging.ko /lib/modules/minidump.ko /lib/modules/qcom-scm.ko /lib/modules/clk-qcom.ko /lib/modules/gdsc-regulator.ko /lib/modules/proxy-consumer.ko /lib/modules/smem.ko /lib/modules/debug-regulator.ko
+/lib/modules/ufs_qcom.ko: /lib/modules/miev.ko /lib/modules/ufshcd-crypto-qti.ko /lib/modules/crypto-qti-common.ko /lib/modules/crypto-qti-tz.ko /lib/modules/phy-qcom-ufs.ko /lib/modules/qcom_ipc_logging.ko /lib/modules/minidump.ko /lib/modules/qcom-scm.ko /lib/modules/clk-qcom.ko /lib/modules/gdsc-regulator.ko /lib/modules/proxy-consumer.ko /lib/modules/smem.ko /lib/modules/debug-regulator.ko
 /lib/modules/coresight-funnel.ko: /lib/modules/coresight.ko
 /lib/modules/leds-qti-tri-led.ko: /lib/modules/pwm-qti-lpg.ko
 /lib/modules/nvmem_qcom-spmi-sdam.ko:
@@ -234,7 +235,7 @@
 /lib/modules/pinctrl-spmi-mpp.ko:
 /lib/modules/mi_wmark.ko:
 /lib/modules/clk-smd-rpm.ko: /lib/modules/rpm-smd.ko /lib/modules/qcom-mpm.ko /lib/modules/clk-qcom.ko /lib/modules/gdsc-regulator.ko /lib/modules/proxy-consumer.ko /lib/modules/debug-regulator.ko
-/lib/modules/sm5602_fg.ko: /lib/modules/qcom-pmic-voter.ko
+/lib/modules/sm5602_fg.ko: /lib/modules/miev.ko /lib/modules/qcom-pmic-voter.ko
 /lib/modules/onewire_gpio.ko:
 /lib/modules/msm_lmh_dcvs.ko:
 /lib/modules/regulator_cdev.ko:
